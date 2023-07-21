@@ -3468,7 +3468,7 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 25, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
    .hero__captionp{
-    margin-bottom: -70px;
+    padding-top: 10px;
   }
 }
 
@@ -3482,7 +3482,7 @@ hr {
 @media (max-width: 575px) {
   /* line 25, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption {
-    padding-top: 56px;
+    padding-top: 54px;
   }
 }
 
@@ -3491,17 +3491,13 @@ hr {
   color: white;
   font-size: 30px;
   font-weight: 300;
-  display: flex;
-  align-items: center; /* Vertically center */
-  justify-content: center; /
+  padding-right: 50px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   /* line 36, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption p {
-    display: flex;
-  align-items: center; /* Vertically center */
-  justify-content: center; /
+    padding-right: 50px;
   }
 }
 
@@ -3570,21 +3566,30 @@ hr {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 76, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
-  .slider-area .hero__caption h1 {
+  .slider-area .hero__caption h4 {
     font-size: 185px;
+  }
+  .slider-area .hero__caption h4 {
+    font-size: 100px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white;
+    line-height: 1;
+    margin-bottom: 39px;
+    margin-bottom: 39px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 76, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
-  .slider-area .hero__caption h1 {
+  .slider-area .hero__caption h4 {
     font-size: 137px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 76, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
-  .slider-area .hero__caption h1 {
+  .slider-area .hero__caption h4 {
     font-size: 90px;
     margin-bottom: 26px;
   }
@@ -3592,12 +3597,31 @@ hr {
 
 @media (max-width: 575px) {
   /* line 76, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
-  .slider-area .hero__caption h1 {
-    font-size: 63px;
+  .slider-area .hero__caption h4 {
+    font-size: 45px;
     margin-bottom: 26px;
   }
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .slider-area .hero__caption h4 {
+    font-size: 50px;
+  }
+}
+
+/* Media query for screens between 768px and 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .slider-area .hero__caption h4 {
+    font-size: 50px;
+  }
+}
+
+/* Media query for screens between 576px and 767px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .slider-area .hero__caption h4 {
+    font-size: 50px;
+  }
+}
 /* line 99, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption span {
   color: #31ff7a;
