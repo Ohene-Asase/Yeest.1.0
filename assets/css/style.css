@@ -30,7 +30,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 /* line 38, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .section-bg1 {
-  background: #FFEFAE;
+  background: #f1f4fa;
 }
 
 /* line 41, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
@@ -2675,7 +2675,7 @@ hr {
 
 /* line 763, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .pt-top {
-  padding-top: 160px;
+  padding-top: 50px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3022,7 +3022,7 @@ hr {
   font-weight: 300;
   line-height: 1.4;
   margin-bottom: 22px;
-  color: red;
+  color: #670000;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -4211,7 +4211,7 @@ hr {
 /* line 2, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_my-expertiese.scss */
 .our-services .single-services {
   background: #fff;
-  padding: 36px 46px 32px 54px;
+  /* padding: 36px 46px 32px 54px; */
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
